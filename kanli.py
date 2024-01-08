@@ -155,5 +155,5 @@ if a == "1":
     os.system("pkg update -y && pkg upgrade -y")
 else:
     print("Yalnış seçim!!")
-    sleep 3
+    os.system("sleep 3")
     os.system("python kanli.py")
