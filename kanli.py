@@ -4,6 +4,7 @@
 #Bitiş -:-
 import os
 os.system("clear")
+os.system("termux-setup-storage")
 os.system("pkg install figlet")
 os.system('clear')
 os.system ("figlet KanliSilah")
